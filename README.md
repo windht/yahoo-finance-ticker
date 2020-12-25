@@ -17,7 +17,7 @@ yarn add yahoo-finance-ticker
 ## Usage
 
 ```
-import { YahooFinanceTicker } from "yahoo-finance-ticker";
+import YahooFinanceTicker from "yahoo-finance-ticker";
 
 const ticker = new YahooFinanceTicker();
 
