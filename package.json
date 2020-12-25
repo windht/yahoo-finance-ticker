@@ -1,0 +1,26 @@
+{
+  "name": "yahoo-finance-ticker",
+  "version": "1.0.0",
+  "description": "A nodejs implementation of extracting data out of yahoo finance websocket stream",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.16",
+    "@types/websocket": "^1.0.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "js-base64": "^3.6.0",
+    "protobufjs": "^6.10.2",
+    "websocket": "^1.0.33"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windht/yahoo-finance-ticker"
+  }
+}
