@@ -1,8 +1,9 @@
 {
   "name": "yahoo-finance-ticker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nodejs implementation of extracting data out of yahoo finance websocket stream",
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -2,7 +2,7 @@ import ws from "websocket";
 import protobuf from "protobufjs";
 import events from "events";
 
-type ICallback = (ticker: any) => any;
+export type ICallback = (ticker: any) => any;
 
 export class YahooFinanceTicker {
   client: ws.client;
