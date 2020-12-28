@@ -75,3 +75,5 @@ export class YahooFinanceTicker {
     this.logging = bool;
   };
 }
+
+export default YahooFinanceTicker;
