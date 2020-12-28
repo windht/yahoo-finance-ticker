@@ -1,6 +1,7 @@
 import ws from "websocket";
 import protobuf from "protobufjs";
 import events from "events";
+import path from "path";
 
 export type ICallback = (ticker: any) => any;
 
@@ -49,7 +50,9 @@ export class YahooFinanceTicker {
   };
 
   private loadProto = async () => {
-    const root = await protobuf.load("yticker.proto");
+    const root = await protobuf.load(
+      path.join(__dirname, "../", "yticker.proto")
+    );
     this.protoTicker = root.lookupType("yticker");
   };
 
