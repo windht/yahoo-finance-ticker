@@ -74,6 +74,13 @@ export class YahooFinanceTicker {
     return this.eventEmitter;
   };
 
+  public unsubscribe = () => {
+    if (this.connection && this.connection.connected) {
+      this.connection.close();
+      this.logger("Yahoo Finance WS Connection Closed");
+    }
+  };
+
   public setLogging = (bool: boolean) => {
     this.logging = bool;
   };
