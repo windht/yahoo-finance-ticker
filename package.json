@@ -1,6 +1,6 @@
 {
   "name": "yahoo-finance-ticker",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A nodejs implementation of extracting data out of yahoo finance websocket stream",
   "main": "dist/index.js",
   "types": "index.d.ts",
